@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from "react";
 
 const Background3D = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const rafRef = useRef<number>();
+  const rafRef = useRef<number>(0);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
