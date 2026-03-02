@@ -1,0 +1,77 @@
+{
+  "name": "Fahimi Yassir - Étudiant Ingénieur | Développeur Java & Angular",
+  "short_name": "Yassir Portfolio",
+  "description": "Portfolio de Fahimi Yassir - Étudiant Ingénieur à l'INSEA, spécialisé en développement Java, Spring Boot, Angular, TypeScript et technologies web modernes.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "dir": "ltr",
+  "lang": "fr-FR",
+  "categories": [
+    "portfolio",
+    "developer",
+    "technology",
+    "education",
+    "business"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/nextjs.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nextjs.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Projects",
+      "short_name": "Projects",
+      "description": "Browse my portfolio projects",
+      "url": "/projects",
+      "icons": [
+        {
+          "src": "/nextjs.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact Me",
+      "short_name": "Contact",
+      "description": "Get in touch with me",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/nextjs.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Skills",
+      "short_name": "Skills",
+      "description": "See my technical skills",
+      "url": "/skills",
+      "icons": [
+        {
+          "src": "/nextjs.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "",
+  "offline_enabled": true
+}
