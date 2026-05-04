@@ -69,6 +69,16 @@ const skills = [
       { name: "Microservices", icon: <Server className="w-4 h-4" /> }
     ],
   },
+    {
+    category: "Méthodologies  & Outils",
+    icon: <Wrench className="w-6 h-6" />,
+    items: [
+      { name: "Méthode Agile", icon: <Cloud className="w-4 h-4" /> },
+      { name: "TDD", icon: <GitLogo /> },
+      { name: "DDD", icon: <Server className="w-4 h-4" /> },
+      { name: "Microservices", icon: <Server className="w-4 h-4" /> }
+    ],
+  },
   {
     category: "Langages",
     icon: <Code2 className="w-6 h-6" />,

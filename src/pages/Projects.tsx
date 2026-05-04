@@ -13,6 +13,15 @@ const projects = [
 		live: '',
 		tags: ["Java", "Spring Boot", "REST API", "Docker", "Microservices"]
 	},
+		{
+		title: 'Data Engineering - Analyse d\'Avis Bancaires Google Maps',
+		description: 'Pipeline ETL complet d\'analyse des avis bancaires depuis Google Maps. Traitement NLP avec TF-IDF pour l\'analyse de sentiments. Extraction des données via Google Maps API, transformation avec DBT, stockage dans PostgreSQL et visualisation avec Looker Studio.',
+		image: '/projects_img/project-1.png',
+		github: 'https://github.com/yassir1410/Bank_Reviews_pipeline',
+		live: '',
+		tags: ["Python", "NLP", "TF-IDF", "Pandas", "Scikit-learn", "Google Maps API", "PostgreSQL", "DBT", "ETL", "Looker Studio"]
+	},
+	
 	{
 		title: 'Système de Traitement Temps Réel',
 		description: 'Traitement asynchrone des événements via Apache Kafka. Architecture scalable et orientée performance. Sécurisation des APIs avec JWT et Spring Security.',
@@ -28,6 +37,14 @@ const projects = [
 		github: 'https://github.com/yassir1410/module-gestion-des-deplacements-odoo',
 		live: '',
 		tags: ["Python", "PostgreSQL", "odoo", "odoo's ORM", "Docker"]
+	},
+		{
+		title: 'Data Engineering - Analyse d\'Avis Bancaires Google Maps',
+		description: 'Pipeline ETL complet d\'analyse des avis bancaires depuis Google Maps. Traitement NLP avec TF-IDF pour l\'analyse de sentiments. Extraction des données via Google Maps API, transformation avec DBT, stockage dans PostgreSQL et visualisation avec Looker Studio.',
+		image: '/projects_img/project-1.png',
+		github: 'https://github.com/yassir1410/Bank_Reviews_pipeline',
+		live: '',
+		tags: ["Python", "NLP", "TF-IDF", "Pandas", "Scikit-learn", "Google Maps API", "PostgreSQL", "DBT", "ETL", "Looker Studio"]
 	},
 ];
 

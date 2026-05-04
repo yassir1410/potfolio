@@ -71,7 +71,7 @@ const Contact = () => {
 		{
 			icon: <Github className="w-5 h-5" />,
 			label: 'GitHub',
-			link: 'https://github.com/yassir-fahimi'
+			link: 'https://github.com/yassir1410'
 		},
 		{
 			icon: <Linkedin className="w-5 h-5" />,
