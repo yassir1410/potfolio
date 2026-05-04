@@ -25,12 +25,12 @@ const About = () => {
 	];
 
 	const interests = [
-		"Développement Backend Java",
-		"Angular & Frontend",
-		"Architecture Microservices",
-		"Spring Boot & Spring Security",
-		"Docker & DevOps",
-		"Bases de Données"
+		"Agents IA Multi-Agents",
+		"RAG & Systèmes Intelligents",
+		"Traitement de Données",
+		"Python & Machine Learning",
+		"Architectures Backend Modernes",
+		"Génération de Documents"
 	];
 
 	return (
@@ -55,13 +55,13 @@ const About = () => {
 				<ScrollAnimation className="space-y-6">
 					<div className="space-y-4">
 						<p className="text-gray-300 leading-relaxed">
-							Bonjour ! Je suis Fahimi Yassir, étudiant en 3ème année à l&apos;INSEA (Institut National de Statistique et d&apos;Économie Appliquée) en Data & Software Engineering, orienté développement Java et Angular.
+							Bonjour ! Je suis Fahimi Yassir, étudiant en 3ème année à l&apos;INSEA (Institut National de Statistique et d&apos;Économie Appliquée) en Data & Software Engineering. Avec un parcours scientifique solide (classe préparatoire MP), je me spécialise dans le développement backend et les systèmes orientés data.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Mon parcours inclut des classes préparatoires MP à Tétouan, suivies d&apos;une formation d&apos;ingénieur à l&apos;INSEA à Rabat. J&apos;ai acquis une expérience concrète à travers des stages en entreprise, notamment chez D3 Soft et Miacorp, où j&apos;ai développé des applications métier avec Laravel, React, Spring Boot et Angular.
+							Au cours de mes projets, j&apos;ai développé des applications complètes incluant la conception de systèmes de gestion de données complexes, l&apos;import et le traitement de données, et la mise en place de logiques métier avancées. J&apos;ai travaillé avec Laravel, React, Inertia, Spring Boot et Angular chez D3 Soft et Miacorp.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Je me spécialise dans la conception d&apos;applications backend robustes avec Spring Boot et le développement d&apos;interfaces web dynamiques avec Angular. Sensible à la qualité du code, aux bonnes pratiques et à l&apos;architecture logicielle. Je recherche un Stage PFE (6 mois) à partir de février 2026.
+							Actuellement, je renforce mes compétences en Python, systèmes IA, RAG (Retrieval-Augmented Generation) et architectures backend modernes. Mon objectif est d&apos;évoluer vers des systèmes d&apos;intelligence artificielle appliqués à des cas métiers réels, particulièrement dans la conception d&apos;agents IA multi-agents et la génération automatisée de documents techniques. Je recherche un Stage PFE (6 mois) pour contribuer à des projets innovants en IA.
 						</p>
 					</div>
 
