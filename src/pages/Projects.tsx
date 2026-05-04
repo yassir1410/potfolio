@@ -14,12 +14,12 @@ const projects = [
 		tags: ["Java", "Spring Boot", "REST API", "Docker", "Microservices"]
 	},
 		{
-		title: 'Data Engineering - Analyse d\'Avis Bancaires Google Maps',
+		title: 'ML project based on TF-IDF',
 		description: 'Pipeline ETL complet d\'analyse des avis bancaires depuis Google Maps. Traitement NLP avec TF-IDF pour l\'analyse de sentiments. Extraction des données via Google Maps API, transformation avec DBT, stockage dans PostgreSQL et visualisation avec Looker Studio.',
 		image: '/projects_img/project-1.png',
-		github: 'https://github.com/yassir1410/Bank_Reviews_pipeline',
+		github: 'https://github.com/yassir1410/Analyse-de-Sentiment-avec-TF-IDF',
 		live: '',
-		tags: ["Python", "NLP", "TF-IDF", "Pandas", "Scikit-learn", "Google Maps API", "PostgreSQL", "DBT", "ETL", "Looker Studio"]
+		tags: ["Python", "NLP", "TF-IDF", "Pandas", "Scikit-learn"]
 	},
 	
 	{
