@@ -9,13 +9,13 @@ const About = () => {
 	const achievements = [
 		{
 			icon: <Code2 className="w-6 h-6" />,
-			title: "5+ Projets",
-			description: "Applications Java, Angular & Full Stack"
+			title: "6+ Projets",
+			description: "Data Engineering, IA, Full Stack"
 		},
 		{
 			icon: <Briefcase className="w-6 h-6" />,
 			title: "2 Stages",
-			description: "Expérience professionnelle"
+			description: "Expérience en développement backend"
 		},
 		{
 			icon: <GraduationCap className="w-6 h-6" />,
