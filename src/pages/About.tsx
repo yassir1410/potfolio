@@ -55,13 +55,16 @@ const About = () => {
 				<ScrollAnimation className="space-y-6">
 					<div className="space-y-4">
 						<p className="text-gray-300 leading-relaxed">
-							Je suis Fahimi Yassir, étudiant en 3ème année en Data & Software Engineering à l&apos;INSEA (Institut National de Statistique et d&apos;Économie Appliquée), avec un parcours scientifique solide (classe préparatoire MP).
+							Je suis Fahimi Yassir, étudiant en 3ème année en Data & Software Engineering à l&apos;INSEA, avec une formation scientifique issue des classes préparatoires MP.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Je me spécialise dans le développement de systèmes orientés data, les architectures backend modernes et l&apos;intelligence artificielle appliquée. Au cours de mes projets et stages chez D3 Soft et Miacorp, j&apos;ai travaillé avec Laravel, React, Spring Boot et Angular pour concevoir des applications complexes.
+							Je conçois des applications de bout en bout en combinant développement full-stack et systèmes orientés data, avec une attention particulière portée à la structuration, la maintenabilité et la scalabilité. Mon approche ne se limite pas à développer des fonctionnalités, mais vise à construire des systèmes cohérents, capables d&apos;évoluer et de répondre à des besoins métiers réels.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Actuellement, je renforce mes compétences en Python, RAG, agents IA multi-agents et data processing. Passionné par la résolution de problèmes complexes et les bonnes pratiques en architecture logicielle.
+							Je m&apos;intéresse particulièrement aux agents intelligents et aux systèmes basés sur l&apos;IA, notamment dans des contextes d&apos;automatisation et d&apos;aide à la décision. J&apos;explore la manière d&apos;intégrer ces capacités dans des architectures applicatives complètes, en reliant logique métier, traitement de données et interaction utilisateur.
+						</p>
+						<p className="text-gray-300 leading-relaxed">
+							Je porte une attention forte aux principes d&apos;ingénierie logicielle : clarté du code, découplage, modularité et qualité globale des systèmes, avec pour objectif de résoudre efficacement des problèmes complexes.
 						</p>
 					</div>
 
