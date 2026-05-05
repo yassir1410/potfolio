@@ -44,7 +44,7 @@ const projects = [
 		image: '/projects_img/project-1.png',
 		github: 'https://github.com/yassir1410/Bank_Reviews_pipeline',
 		live: '',
-		tags: ["Python", "NLP", "TF-IDF", "Pandas", "Scikit-learn", "Google Maps API", "PostgreSQL", "DBT", "ETL", "Looker Studio"]
+		tags: ["Python", "NLP",  "Google Maps API", "PostgreSQL", "DBT", "ETL", "Looker Studio"]
 	},
 ];
 
