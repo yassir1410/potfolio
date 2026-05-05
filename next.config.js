@@ -40,7 +40,7 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https:",
               "font-src 'self' data:",
-              "connect-src 'self' https://api.github.com https://vitals.vercel-insights.com https://va.vercel-scripts.com",
+              "connect-src 'self' https://api.github.com https://vitals.vercel-insights.com https://va.vercel-scripts.com https://formspree.io",
               "frame-ancestors 'self'",
             ].join("; "),
           },
