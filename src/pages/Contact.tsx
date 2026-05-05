@@ -18,24 +18,32 @@ const Contact = () => {
 	const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmitStatus('idle');
 
     try {
       const response = await fetch("https://formspree.io/f/xykowlen", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Accept": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        }),
       });
 
       if (response.ok) {
         setSubmitStatus("success");
         setFormData({ name: "", email: "", subject: "", message: "" });
+        setTimeout(() => setSubmitStatus('idle'), 5000);
       } else {
+        console.error("Response status:", response.status);
         setSubmitStatus("error");
       }
     } catch (error) {
-      console.error("Error:", error);
+      console.error("Error submitting form:", error);
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
@@ -283,6 +291,15 @@ const Contact = () => {
 									className="text-green-400 text-center text-sm sm:text-base"
 								>
 									Message sent successfully! I'll get back to you soon.
+								</motion.p>
+							)}
+							{submitStatus === 'error' && (
+								<motion.p
+									initial={{ opacity: 0, y: 10 }}
+									animate={{ opacity: 1, y: 0 }}
+									className="text-red-400 text-center text-sm sm:text-base"
+								>
+									Failed to send message. Please try again or contact me directly via email.
 								</motion.p>
 							)}
 						</form>
