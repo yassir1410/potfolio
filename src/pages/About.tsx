@@ -55,13 +55,13 @@ const About = () => {
 				<ScrollAnimation className="space-y-6">
 					<div className="space-y-4">
 						<p className="text-gray-300 leading-relaxed">
-							Bonjour ! Je suis Fahimi Yassir, étudiant en 3ème année à l&apos;INSEA (Institut National de Statistique et d&apos;Économie Appliquée) en Data & Software Engineering. Avec un parcours scientifique solide (classe préparatoire MP), je me spécialise dans le développement backend et les systèmes orientés data.
+							Je suis Fahimi Yassir, étudiant en 3ème année en Data & Software Engineering à l&apos;INSEA (Institut National de Statistique et d&apos;Économie Appliquée), avec un parcours scientifique solide (classe préparatoire MP).
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Au cours de mes projets, j&apos;ai développé des applications complètes incluant la conception de systèmes de gestion de données complexes, l&apos;import et le traitement de données, et la mise en place de logiques métier avancées. J&apos;ai travaillé avec Laravel, React, Inertia, Spring Boot et Angular chez D3 Soft et Miacorp.
+							Je me spécialise dans le développement de systèmes orientés data, les architectures backend modernes et l&apos;intelligence artificielle appliquée. Au cours de mes projets et stages chez D3 Soft et Miacorp, j&apos;ai travaillé avec Laravel, React, Spring Boot et Angular pour concevoir des applications complexes.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Actuellement, je renforce mes compétences en Python, systèmes IA, RAG (Retrieval-Augmented Generation) et architectures backend modernes. Mon objectif est d&apos;évoluer vers des systèmes d&apos;intelligence artificielle appliqués à des cas métiers réels, particulièrement dans la conception d&apos;agents IA multi-agents et la génération automatisée de documents techniques. Je recherche un Stage PFE (6 mois) pour contribuer à des projets innovants en IA.
+							Actuellement, je renforce mes compétences en Python, RAG, agents IA multi-agents et data processing. Passionné par la résolution de problèmes complexes et les bonnes pratiques en architecture logicielle.
 						</p>
 					</div>
 
