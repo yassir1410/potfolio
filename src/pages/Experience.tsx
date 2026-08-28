@@ -32,6 +32,19 @@ const experiences = [
 			"Intégration d'APIs externes et génération de documents dynamiques"
 		]
 	},
+	{
+		title: " AI & Full Stack Engineer (Stagiaire)",
+		company: " AI4U",
+		location: "Maroc",
+		period: "Avr. 2026 - Aout 2026",
+		type: "Stage",
+		image: "/experience/ai4u_page.jpg",
+		certificateUrl: "/files/experience_pdf/ai4u.pdf",
+		description: [
+			"Développement et automatisation de processus web",
+			"Intégration d'APIs externes et génération de documents dynamiques"
+		]
+	}
 ];
 
 const Experience = () => {
