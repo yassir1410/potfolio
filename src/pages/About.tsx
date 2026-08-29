@@ -8,19 +8,24 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 const About = () => {
 	const achievements = [
 		{
-			icon: <Code2 className="w-6 h-6" />,
-			title: "6+ Projets",
-			description: "Data Engineering, IA, Full Stack"
+			icon: <Briefcase className="w-6 h-6" />,
+			title: "3 Expériences",
+			description: "SaaS Médical (PFE), Fintech & LegalTech"
 		},
 		{
-			icon: <Briefcase className="w-6 h-6" />,
-			title: "2 Stages",
-			description: "Expérience en développement backend & IA"
+			icon: <Code2 className="w-6 h-6" />,
+			title: "6+ Projets",
+			description: "Microservices Kafka, SaaS IA, DevOps & Full Stack"
 		},
 		{
 			icon: <GraduationCap className="w-6 h-6" />,
 			title: "INSEA",
-			description: "Data & Software Engineering"
+			description: "Diplôme d'Ingénieur Data & Software Engineering"
+		},
+		{
+			icon: <Award className="w-6 h-6" />,
+			title: "CPGE MP",
+			description: "Classes Préparatoires aux Grandes Écoles"
 		}
 	];
 
@@ -34,7 +39,7 @@ const About = () => {
 	];
 
 	return (
-		<div className="min-h-screen pt-20 px-4 max-w-4xl mx-auto pb-20">
+		<div className="min-h-screen pt-20 px-4 max-w-5xl mx-auto pb-20">
 			<ScrollAnimation>
 				<motion.h2 className="text-4xl font-bold mb-8 gradient-text">
 					About Me
@@ -88,7 +93,7 @@ const About = () => {
 					<ScrollAnimation>
 						<div className="flex justify-start space-x-4">
 							<Link
-								href="/files/cv_pdf/Fahimi_Yassir(CV).pdf"
+								href="/files/cv_pdf/cv_yassir_dev.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors"
@@ -109,13 +114,15 @@ const About = () => {
 			<ScrollAnimation>
 				<div className="mt-16">
 					<h3 className="text-2xl font-semibold mb-8 gradient-text">Achievements</h3>
-					<div className="grid md:grid-cols-3 gap-6">
+					<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
 						{achievements.map((achievement, index) => (
 							<ScrollAnimation key={achievement.title}>
-								<div className="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
-									<div className="text-white mb-4">{achievement.icon}</div>
-									<h4 className="text-xl font-semibold mb-2">{achievement.title}</h4>
-									<p className="text-gray-400">{achievement.description}</p>
+								<div className="bg-white/5 p-6 rounded-xl backdrop-blur-sm hover:bg-white/10 transition-colors h-full flex flex-col justify-between">
+									<div>
+										<div className="text-white mb-4">{achievement.icon}</div>
+										<h4 className="text-xl font-semibold mb-2">{achievement.title}</h4>
+										<p className="text-gray-400 text-sm">{achievement.description}</p>
+									</div>
 								</div>
 							</ScrollAnimation>
 						))}

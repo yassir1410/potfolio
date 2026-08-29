@@ -115,7 +115,7 @@ const Home = () => {
 
             {/* CV */}
             <Link
-              href="/files/cv_pdf/cv_yassir_fahimi_dev.pdf"
+              href="/files/cv_pdf/cv_yassir_dev.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 sm:px-6 py-2.5 sm:py-3 bg-white text-black rounded-full text-sm sm:text-base font-medium hover:bg-gray-100 transition-colors flex items-center gap-2"
