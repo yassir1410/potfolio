@@ -11,7 +11,7 @@ const experiences = [
 		location: "Rabat, Maroc",
 		period: "Fév. 2026 – Août 2026",
 		type: "PFE",
-		image: "/experience/ai4u_page.jpg",
+		image: "/experience/ai4clinic_preview.png",
 		description: [
 			"Projet de Fin d'Études (PFE) : Développement d'AI4Clinic v3.0, une plateforme SaaS médicale multi-tenant (marketplace, cashback, gestion des cabinets).",
 			"Architecture backend moderne avec Node.js, Express.js, Prisma et PostgreSQL, incluant la gestion d'isolation multi-tenant.",
@@ -28,7 +28,7 @@ const experiences = [
 		location: "Tanger, Maroc",
 		period: "Juil. 2025 – Sept. 2025",
 		type: "Stage",
-		image: "/experience/codeAlpha_page.jpg",
+		image: "/experience/liasse_fiscale_preview.png",
 		description: [
 			"Développement d'une application web de génération de la liasse fiscale marocaine conforme aux exigences de la DGI.",
 			"Développement de fonctionnalités Full Stack et automatisation de l'import des balances comptables.",
@@ -43,7 +43,7 @@ const experiences = [
 		location: "Tanger, Maroc",
 		period: "Juil. 2024 – Sept. 2024",
 		type: "Stage",
-		image: "/experience/bharatIntern_page.jpg",
+		image: "/experience/legaltech_preview.png",
 		description: [
 			"Participation au développement d'une plateforme automatisant la génération de documents juridiques pour la création d'entreprises en France.",
 			"Conception et développement de formulaires dynamiques et intégration d'APIs externes.",
