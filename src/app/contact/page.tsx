@@ -3,13 +3,13 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title:
-    "Contact - Fahimi Yassir | Développeur Java & Angular",
+    "Contact - Fahimi Yassir | Ingénieur Data & Software Engineering",
   description:
-    "Contactez Fahimi Yassir pour des projets de développement, stages PFE, ou collaborations. Email : fahimiyassir4@gmail.com | Tél : +212 625343237. Basé à Rabat, Maroc.",
+    "Contactez Fahimi Yassir, Ingénieur en Data & Software Engineering (INSEA), pour des projets, opportunités ou collaborations. Email : fahimiyassir4@gmail.com | Tél : +212 625343237. Basé à Rabat, Maroc.",
   keywords:
-    "Contact Fahimi Yassir, Développeur Java, Stage PFE, Développeur Angular, Spring Boot, Rabat Maroc, INSEA",
+    "Contact Fahimi Yassir, Ingénieur Data & Software Engineering, INSEA, Full Stack, RAG, IA, Rabat Maroc",
   openGraph: {
-    title: "Contact - Fahimi Yassir | Développeur Java & Angular",
+    title: "Contact - Fahimi Yassir | Ingénieur Data & Software Engineering",
     description: "Contactez-moi pour des projets et collaborations",
     url: "https://yassir-fahimi.vercel.app/contact",
     type: "website",

@@ -99,9 +99,9 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Data & Software Engineer spécialisé dans la conception,
-          le développement de solutions logicielles modernes et
-          la construction de systèmes intelligents orientés données.
+          Ingénieur en Data & Software Engineering, diplômé de l&apos;INSEA.
+          Conception et développement d&apos;applications de bout en bout
+          alliant développement full-stack, ingénierie logicielle, systèmes orientés data et solutions IA.
         </motion.p>
 
         {/* Actions */}

@@ -3,22 +3,22 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Compétences Techniques - Fahimi Yassir | Java, Spring Boot, Angular",
+    "Compétences Techniques - Fahimi Yassir | Data & Software Engineering",
   description:
-    "Compétences techniques de Fahimi Yassir : Backend (Java 21, Spring Boot, Spring Security, JPA/Hibernate), Frontend (Angular, TypeScript, HTML5, CSS3), Bases de données (PostgreSQL, MongoDB), DevOps (Docker, Git, Kafka).",
+    "Compétences techniques de Fahimi Yassir : Full-Stack, Backend & Frontend, Ingénierie Logicielle, Data & IA (ML, NLP, RAG, LLM), Bases de données (PostgreSQL, MySQL, MongoDB), DevOps (Docker, Git, Kubernetes, Kafka).",
   keywords:
-    "Java, Spring Boot, Angular, TypeScript, PostgreSQL, Docker, Kafka, Spring Security, JPA, Hibernate, Full Stack, Compétences Techniques, Fahimi Yassir",
+    "Data Engineering, Software Engineering, RAG, IA, Full Stack, Python, Java, Spring Boot, React, Angular, PostgreSQL, Docker, Kafka, Fahimi Yassir",
   openGraph: {
-    title: "Compétences Techniques - Fahimi Yassir",
+    title: "Compétences Techniques - Fahimi Yassir | Data & Software Engineering",
     description:
-      "Mes compétences techniques en développement Java & Angular",
+      "Mes compétences techniques en ingénierie logicielle, systèmes orientés data et IA",
     url: "https://yassir-fahimi.vercel.app/skills",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Compétences Techniques - Fahimi Yassir",
-    description: "Mes compétences techniques",
+    description: "Mes compétences techniques en ingénierie logicielle & data",
   },
   alternates: {
     canonical: "/skills",

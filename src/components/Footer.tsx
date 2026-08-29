@@ -38,7 +38,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-sm text-gray-400">
-              Étudiant Ingénieur basé à Rabat, Maroc.
+              Ingénieur Data & Software Engineering basé à Rabat, Maroc.
             </p>
           </div>
 

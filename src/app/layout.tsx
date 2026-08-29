@@ -24,11 +24,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   // Basic metadata
   title: {
-    default: "Fahimi Yassir - Étudiant Ingénieur | Développeur Java & Angular – INSEA",
+    default: "Fahimi Yassir - Ingénieur Data & Software Engineering | INSEA",
     template: "%s | Fahimi Yassir",
   },
   description:
-    "Fahimi Yassir - Étudiant Ingénieur à l'INSEA spécialisé en Data & Software Engineering. Développeur Java, Spring Boot, Angular, TypeScript. Basé à Rabat, Maroc.",
+    "Fahimi Yassir - Ingénieur en Data & Software Engineering, diplômé de l'INSEA (CPGE MP). Spécialisé en développement full-stack, ingénierie logicielle, systèmes orientés data et solutions d'IA (RAG, agents intelligents). Basé à Rabat, Maroc.",
 
   // Extended keywords for better SEO
   keywords: [
@@ -38,59 +38,37 @@ export const metadata: Metadata = {
     "yassir-fahimi",
 
     // Job titles
-    "Étudiant Ingénieur",
-    "Développeur Java",
-    "Développeur Angular",
-    "Full Stack Developer",
+    "Ingénieur Data & Software Engineering",
+    "Data & Software Engineer",
+    "Full Stack Engineer",
     "Software Engineer",
-    "Backend Developer",
-    "Java Developer",
-    "Spring Boot Developer",
+    "Data Engineer",
+    "AI Engineer",
 
-    // Technologies - Backend
-    "Java 21",
+    // Specializations & Technologies
+    "Intelligence Artificielle",
+    "RAG",
+    "Agents Intelligents",
+    "Data Engineering",
+    "Ingénierie Logicielle",
+    "Python",
+    "Java",
     "Spring Boot",
-    "Spring Security",
-    "JPA/Hibernate",
-    "REST API",
-    "Microservices",
-    "Apache Kafka",
-
-    // Technologies - Frontend
+    "FastAPI",
+    "React",
     "Angular",
     "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-
-    // Technologies - Database
     "PostgreSQL",
-    "MongoDB",
-    "SQL",
-    "Database Design",
-
-    // Technologies - DevOps/Tools
-    "Git",
-    "GitHub",
     "Docker",
-    "CI/CD",
+    "Kafka",
+    "Microservices",
 
-    // Skills
-    "Web Development",
-    "Full Stack Development",
-    "Backend Development",
-    "Software Architecture",
-
-    // Location
+    // Location & Education
+    "INSEA",
+    "CPGE MP",
     "Rabat Developer",
     "Maroc Developer",
-    "INSEA",
-    "Morocco Developer",
-
-    // Services
-    "Portfolio",
-    "Stage PFE",
-    "Ingénieur Software",
+    "Morocco Software Engineer",
   ].join(", "),
 
   authors: [
@@ -113,16 +91,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     url: "https://yassir-fahimi.vercel.app/",
-    title: "Fahimi Yassir - Étudiant Ingénieur | Développeur Java & Angular",
+    title: "Fahimi Yassir - Ingénieur Data & Software Engineering | INSEA",
     description:
-      "Étudiant Ingénieur à l'INSEA, spécialisé en Java, Spring Boot, Angular et technologies web modernes. Expert en développement backend et applications Full Stack.",
+      "Ingénieur en Data & Software Engineering diplômé de l'INSEA. Expert en développement full-stack, ingénierie logicielle, systèmes orientés data et solutions d'IA (RAG, agents intelligents).",
     siteName: "Fahimi Yassir Portfolio",
     images: [
       {
         url: "https://yassir-fahimi.vercel.app/profile/profile.jpg",
         width: 1200,
         height: 630,
-        alt: "Fahimi Yassir - Développeur Java & Angular",
+        alt: "Fahimi Yassir - Ingénieur Data & Software Engineering",
       },
     ],
   },
@@ -130,9 +108,9 @@ export const metadata: Metadata = {
   // Twitter Card metadata
   twitter: {
     card: "summary_large_image",
-    title: "Fahimi Yassir - Étudiant Ingénieur | Développeur Java & Angular",
+    title: "Fahimi Yassir - Ingénieur Data & Software Engineering | INSEA",
     description:
-      "Étudiant Ingénieur à l'INSEA, spécialisé en Java, Spring Boot, Angular et technologies web modernes.",
+      "Ingénieur en Data & Software Engineering diplômé de l'INSEA. Développeur full-stack, ingénierie logicielle, systèmes data & IA.",
     creator: "@yassir_fahimi",
     images: ["https://yassir-fahimi.vercel.app/profile/profile.jpg"],
   },
@@ -163,15 +141,10 @@ export const metadata: Metadata = {
   // Verification
   verification: {
     google: "googlea4a36904e14398c1",
-    // Add other verifications if needed
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
   },
 
   // Additional metadata
   category: "technology",
-
-  // Structured data will be added via JSON-LD in the component
 };
 
 export default function RootLayout({
@@ -188,10 +161,10 @@ export default function RootLayout({
     url: "https://yassir-fahimi.vercel.app",
     image: "https://yassir-fahimi.vercel.app/profile/profile.jpg",
     sameAs: [
-      "https://github.com/yassir-fahimi",
+      "https://github.com/yassir1410",
       "https://linkedin.com/in/yassir-fahimi-265826218",
     ],
-    jobTitle: "Étudiant Ingénieur - Développeur Java & Angular",
+    jobTitle: "Ingénieur en Data & Software Engineering",
     worksFor: {
       "@type": "Organization",
       name: "INSEA",

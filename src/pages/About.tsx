@@ -15,7 +15,7 @@ const About = () => {
 		{
 			icon: <Briefcase className="w-6 h-6" />,
 			title: "2 Stages",
-			description: "Expérience en développement backend"
+			description: "Expérience en développement backend & IA"
 		},
 		{
 			icon: <GraduationCap className="w-6 h-6" />,
@@ -25,12 +25,12 @@ const About = () => {
 	];
 
 	const interests = [
-		"Agents IA Multi-Agents",
-		"RAG & Systèmes Intelligents",
-		"Traitement de Données",
-		"Python & Machine Learning",
+		"Intelligence Artificielle & Agents RAG",
+		"Ingénierie Logicielle & Architectures",
+		"Traitement & Ingénierie de Données",
+		"Développement Full-Stack",
 		"Architectures Backend Modernes",
-		"Génération de Documents"
+		"Automatisation & Aide à la décision"
 	];
 
 	return (
@@ -55,16 +55,16 @@ const About = () => {
 				<ScrollAnimation className="space-y-6">
 					<div className="space-y-4">
 						<p className="text-gray-300 leading-relaxed">
-							Je suis Fahimi Yassir, étudiant en 3ème année en Data & Software Engineering à l&apos;INSEA, avec une formation scientifique issue des classes préparatoires MP.
+							Je suis Fahimi Yassir, ingénieur en Data & Software Engineering, diplômé de l&apos;INSEA, avec une formation scientifique solide issue des classes préparatoires MP.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Je conçois des applications de bout en bout en combinant développement full-stack et systèmes orientés data, avec une attention particulière portée à la structuration, la maintenabilité et la scalabilité. Mon approche ne se limite pas à développer des fonctionnalités, mais vise à construire des systèmes cohérents, capables d&apos;évoluer et de répondre à des besoins métiers réels.
+							Je conçois et développe des applications de bout en bout en combinant développement full-stack, ingénierie logicielle et systèmes orientés data. Je porte une attention particulière à la structuration, la maintenabilité et la scalabilité des solutions, avec une approche orientée vers la conception de systèmes cohérents et adaptés à des besoins métiers réels.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Je m&apos;intéresse particulièrement aux agents intelligents et aux systèmes basés sur l&apos;IA, notamment dans des contextes d&apos;automatisation et d&apos;aide à la décision. J&apos;explore la manière d&apos;intégrer ces capacités dans des architectures applicatives complètes, en reliant logique métier, traitement de données et interaction utilisateur.
+							Je m&apos;intéresse particulièrement à l&apos;Intelligence Artificielle, aux agents intelligents et aux systèmes basés sur le RAG, notamment pour l&apos;automatisation, l&apos;exploitation des données et l&apos;aide à la décision. J&apos;explore leur intégration au sein d&apos;architectures applicatives complètes, en reliant traitement des données, logique métier, services backend et expérience utilisateur.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Je porte une attention forte aux principes d&apos;ingénierie logicielle : clarté du code, découplage, modularité et qualité globale des systèmes, avec pour objectif de résoudre efficacement des problèmes complexes.
+							Mon approche repose sur les principes fondamentaux de l&apos;ingénierie logicielle : clarté du code, modularité, découplage, robustesse et évolutivité. Mon objectif est de transformer des problématiques complexes en solutions logicielles fiables, maintenables et capables d&apos;évoluer.
 						</p>
 					</div>
 
@@ -72,7 +72,7 @@ const About = () => {
 						<div className="pt-4">
 							<h3 className="text-2xl font-semibold mb-4 gradient-text">Quick Facts</h3>
 							<ul className="list-none space-y-3">
-								{["Basé à Rabat, Maroc", "Ingénieur Data & Software Engineering - INSEA", "Langues : Français , Anglais , Arabe"].map((fact, index) => (
+								{["Basé à Rabat, Maroc", "Ingénieur Data & Software Engineering - INSEA", "Langues : Français, Anglais, Arabe"].map((fact, index) => (
 									<motion.li
 										key={fact}
 										className="flex items-center space-x-2 text-gray-300"
