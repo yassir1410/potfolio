@@ -6,41 +6,50 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const experiences = [
 	{
-		title: "AI & Full Stack Engineer (Stagiaire)",
-		company: "AI4U",
-		location: "Maroc",
-		period: "Avr. 2026 - Aout 2026",
-		type: "Stage",
+		title: "Ingénieur Full Stack & IA (PFE)",
+		company: "AI4U / Seven Eleven Media",
+		location: "Rabat, Maroc",
+		period: "Fév. 2026 – Août 2026",
+		type: "PFE",
 		image: "/experience/ai4u_page.jpg",
 		description: [
-			"Développement et automatisation de processus web & systèmes IA",
-			"Intégration d'APIs externes, modèles d'IA et traitement de données"
-		]
+			"Projet de Fin d'Études (PFE) : Développement d'AI4Clinic v3.0, une plateforme SaaS médicale multi-tenant (marketplace, cashback, gestion des cabinets).",
+			"Architecture backend moderne avec Node.js, Express.js, Prisma et PostgreSQL, incluant la gestion d'isolation multi-tenant.",
+			"Utilisation de PostGIS pour les recherches géospatiales de médecins selon la géolocalisation.",
+			"Intégration d'un assistant virtuel WhatsApp basé sur Claude API (Anthropic) pour l'automatisation de la prise de rendez-vous en Français et Darija.",
+			"Implémentation de fonctionnalités temps réel avec Socket.io pour la gestion des files d'attente.",
+			"Développement frontend sur Next.js 15 (SSR/ISR) avec interfaces adaptées aux rôles médecin et secrétaire."
+		],
+		technologies: ["Next.js 15", "Node.js", "Express", "Prisma", "PostgreSQL", "PostGIS", "Claude API", "Socket.io"]
 	},
 	{
 		title: "Développeur Full Stack (Stagiaire)",
 		company: "D3 Soft",
-		location: "Maroc",
-		period: "Juil. 2025 - Sept. 2025",
+		location: "Tanger, Maroc",
+		period: "Juil. 2025 – Sept. 2025",
 		type: "Stage",
 		image: "/experience/codeAlpha_page.jpg",
 		description: [
-			"Développement d'applications métier avec Laravel et React",
-			"Conception de modules backend et intégration frontend",
-			"Automatisation de flux XML et traitement de données complexes"
-		]
+			"Développement d'une application web de génération de la liasse fiscale marocaine conforme aux exigences de la DGI.",
+			"Développement de fonctionnalités Full Stack et automatisation de l'import des balances comptables.",
+			"Implémentation des calculs fiscaux et génération des différents états réglementaires.",
+			"Participation à la modélisation des données et intégration des règles métier des cellules fiscales."
+		],
+		technologies: ["Laravel", "React", "Inertia.js", "MySQL"]
 	},
 	{
 		title: "Développeur Web (Stagiaire)",
 		company: "Miacorp",
-		location: "Maroc",
-		period: "Juil. 2024 - Sept. 2024",
+		location: "Tanger, Maroc",
+		period: "Juil. 2024 – Sept. 2024",
 		type: "Stage",
 		image: "/experience/bharatIntern_page.jpg",
 		description: [
-			"Développement et automatisation de processus web",
-			"Intégration d'APIs externes et génération de documents dynamiques"
-		]
+			"Participation au développement d'une plateforme automatisant la génération de documents juridiques pour la création d'entreprises en France.",
+			"Conception et développement de formulaires dynamiques et intégration d'APIs externes.",
+			"Mise en place de la génération automatisée de documents PDF officiels."
+		],
+		technologies: ["Python", "Flask", "React", "PostgreSQL"]
 	}
 ];
 
@@ -56,7 +65,7 @@ const Experience = () => {
 
 			<div className="space-y-8 sm:space-y-12">
 				{experiences.map((exp, index) => (
-					<ScrollAnimation key={exp.title}>
+					<ScrollAnimation key={exp.company + exp.title}>
 						<div className="group relative bg-gray-800/50 rounded-xl sm:rounded-2xl overflow-hidden backdrop-blur-sm hover:bg-gray-800/70 transition-all border border-white/5">
 							<div className="grid grid-cols-1 md:grid-cols-[1fr,300px]">
 								<div className="p-6 sm:p-8">
@@ -71,13 +80,13 @@ const Experience = () => {
 									</div>
 
 									<div className="flex flex-wrap items-center gap-2 text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-										<MapPin className="w-4 h-4" />
+										<MapPin className="w-4 h-4 text-gray-400" />
 										<span>{exp.location}</span>
 										<span>•</span>
 										<span>{exp.period}</span>
 									</div>
 
-									<ul className="space-y-3 sm:space-y-4">
+									<ul className="space-y-3 sm:space-y-4 mb-6">
 										{exp.description.map((item, i) => (
 											<li
 												key={i}
@@ -88,6 +97,19 @@ const Experience = () => {
 											</li>
 										))}
 									</ul>
+
+									{exp.technologies && (
+										<div className="flex flex-wrap gap-2 pt-2 border-t border-white/5">
+											{exp.technologies.map((tech) => (
+												<span
+													key={tech}
+													className="px-3 py-1 text-xs sm:text-sm bg-white/10 hover:bg-white/15 text-gray-200 rounded-full transition-colors font-medium"
+												>
+													{tech}
+												</span>
+											))}
+										</div>
+									)}
 								</div>
 
 								<div className="relative hidden md:block overflow-hidden">
